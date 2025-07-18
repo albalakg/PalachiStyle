@@ -1,0 +1,36 @@
+@keyframes slideIn {
+  from {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+#menuItems.menu-open {
+  height: 100vh;
+  animation: slideIn 0.3s ease-out;
+  background-color: #fff;
+  padding: 2rem;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+
+#menuItems.menu-open a {
+  display: block;
+  padding: 1rem;
+  text-align: center;
+  font-size: 1.25rem;
+  color: #374151;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+#menuItems.menu-open a:last-child {
+  border-bottom: none;
+}
+
+#menuItems.menu-open a:hover {
+  color: #ec4899;
+  background-color: rgba(236, 72, 153, 0.1);
+}
