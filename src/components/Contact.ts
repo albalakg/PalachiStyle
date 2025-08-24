@@ -7,14 +7,15 @@ export const Contact = `
       <div class="max-w-4xl mx-auto">
         <div class="text-center mb-12" data-aos="fade-up">
           <h2 class="text-4xl font-bold text-gray-800 mb-4">רוצה לתאם תור או לשאול שאלה?</h2>
-          <p class="text-lg text-gray-600 max-w-2xl mx-auto">מלאי את הפרטים כאן ואני אחזור אלייך בהקדם</p>
+          <p class="text-xl text-gray-600 max-w-2xl mx-auto">מלאי את הפרטים כאן ואני אחזור אלייך בהקדם</p>
         </div>
 
         <div class="grid md:grid-cols-2 gap-8">
           <div class="bg-white p-8 rounded-2xl shadow-soft h-full" data-aos="fade-right">
             <form class="space-y-6 h-full flex flex-col">
+              <div id="formMessage" class="text-center text-sm mt-4 px-4 py-2 rounded-xl transition-all duration-300 opacity-0"></div>
               <div class="relative flex-grow">
-                <input type="text" placeholder="שם" 
+                <input name="name" type="text" placeholder="שם" 
                   class="w-full pr-12 pl-4 py-4 bg-gray-50 rounded-xl border-2 border-transparent focus:border-primary-600 transition-colors text-right placeholder-gray-400"
                   data-aos="fade-up" data-aos-delay="100"
                 />
@@ -24,7 +25,7 @@ export const Contact = `
               </div>
               
               <div class="relative flex-grow">
-                <input type="tel" placeholder="טלפון" 
+                <input name="phone" type="tel" placeholder="טלפון" 
                   class="w-full pr-12 pl-4 py-4 bg-gray-50 rounded-xl border-2 border-transparent focus:border-primary-600 transition-colors text-right placeholder-gray-400"
                   data-aos="fade-up" data-aos-delay="300"
                 />
@@ -34,7 +35,7 @@ export const Contact = `
               </div>
               
               <div class="relative flex-grow">
-                <input type="text" placeholder="אזור מגורים" 
+                <input name="region" type="text" placeholder="אזור מגורים" 
                   class="w-full pr-12 pl-4 py-4 bg-gray-50 rounded-xl border-2 border-transparent focus:border-primary-600 transition-colors text-right placeholder-gray-400"
                   data-aos="fade-up" data-aos-delay="100"
                 />
@@ -78,7 +79,7 @@ export const Contact = `
               </div>
 
               <div class="relative flex-grow">
-                <textarea placeholder="הערות או שאלה חופשית" rows="4" 
+                <textarea name="notes" placeholder="הערות או שאלה חופשית" rows="4" 
                   class="w-full pr-12 pl-4 py-4 bg-gray-50 rounded-xl border-2 border-transparent focus:border-primary-600 transition-colors text-right placeholder-gray-400 resize-none"
                   data-aos="fade-up" data-aos-delay="400"
                 ></textarea>
@@ -102,25 +103,25 @@ export const Contact = `
               <div class="w-12 h-12 bg-primary-100 rounded-full flex items-center justify-center mx-auto md:mr-0 mb-4">
                 <i class="fas fa-house text-xl text-primary-500"></i>
               </div>
-              <h3 class="text-xl font-semibold mb-2 text-center md:text-right">נוחות מקסימלית</h3>
-              <p class="text-gray-600 text-center md:text-right">לא צריך לצאת מהבית</p>
+              <h3 class="text-2xl font-semibold mb-2 text-center md:text-right">נוחות מקסימלית</h3>
+              <p class="text-gray-600 text-center md:text-right text-lg">לא צריך לצאת מהבית</p>
             </div>
 
             <div class="p-6 bg-white rounded-2xl shadow-soft hover:shadow-lg transition-all duration-300 flex flex-col justify-center">
               <div class="w-12 h-12 bg-primary-100 rounded-full flex items-center justify-center mx-auto md:mr-0 mb-4">
                 <i class="fas fa-map-marker-alt text-xl text-primary-500"></i>
               </div>
-              <h3 class="text-xl font-semibold mb-2 text-center md:text-right">אזור עבודה</h3>
-              <p class="text-gray-600 text-center md:text-right">פעילות באיזור עמק חפר השרון והמרכז</p>
+              <h3 class="text-2xl font-semibold mb-2 text-center md:text-right">אזור עבודה</h3>
+              <p class="text-gray-600 text-center md:text-right text-lg">פעילות באיזור עמק חפר השרון והמרכז</p>
             </div>
 
             <div class="p-6 bg-white rounded-2xl shadow-soft hover:shadow-lg transition-all duration-300 flex flex-col justify-center">
               <div class="w-12 h-12 bg-primary-100 rounded-full flex items-center justify-center mx-auto md:mr-0 mb-4">
                 <i class="fas fa-phone-alt text-xl text-primary-500"></i>
               </div>
-              <h3 class="text-xl font-semibold mb-2 text-center md:text-right">טלפון</h3>
+              <h3 class="text-2xl font-semibold mb-2 text-center md:text-right">טלפון</h3>
               <p class="text-gray-600 text-center md:text-right">
-                <a href="tel:+052-2427530" class="hover:text-primary-500 transition-colors">052-2427530</a>
+                <a href="tel:+052-2427530" class="hover:text-primary-500 transition-colors text-lg">052-2427530</a>
               </p>
             </div>
           </div>
