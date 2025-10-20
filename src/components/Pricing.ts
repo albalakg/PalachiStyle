@@ -27,7 +27,7 @@ export const Pricing = `
           </li>
           <li class="bg-primary-50 p-3 rounded-lg flex justify-between transition-all duration-300 hover:bg-primary-100 hover:scale-[1.02] hover:shadow-md">
             <span class="text-sm md:text-lg mt-[4px] md:mt-0">פן בלבד</span>
-            <span class="font-bold mt-[2px]">120 ₪</span>
+            <span class="font-bold mt-[2px]">100-80 ₪</span>
           </li>
           <li class="bg-primary-50 p-3 rounded-lg flex justify-between transition-all duration-300 hover:bg-primary-100 hover:scale-[1.02] hover:shadow-md">
             <span class="text-sm md:text-lg mt-[4px] md:mt-0">בייביליס / תסרוקת קלילה</span>
@@ -50,7 +50,7 @@ export const Pricing = `
         </div>
         <ul class="space-y-4 text-gray-600 mb-8 text-right">
           <li class="bg-primary-50 p-3 rounded-lg flex justify-between transition-all duration-300 hover:bg-primary-100 hover:scale-[1.02] hover:shadow-md">
-            <span class="text-sm md:text-lg mt-[2px] sm:mt-[0px]">צבע שיער ללא אמוניה</span>
+            <span class="text-sm md:text-lg mt-[2px] sm:mt-[0px]">צבע שיער</span>
             <span class="font-bold">150 ₪</span>
           </li>
           <li class="bg-primary-50 p-3 rounded-lg flex justify-between transition-all duration-300 hover:bg-primary-100 hover:scale-[1.02] hover:shadow-md">
@@ -59,7 +59,7 @@ export const Pricing = `
           </li>
           <li class="bg-primary-50 p-3 rounded-lg flex justify-between transition-all duration-300 hover:bg-primary-100 hover:scale-[1.02] hover:shadow-md">
             <span class="text-sm md:text-lg mt-[2px] sm:mt-[0px]">גוונים / בליאז' / אומברה</span>
-            <span class="font-bold">400–700 ₪</span>
+            <span class="font-bold">400–900 ₪</span>
           </li>
         </ul>
       </div>
@@ -91,11 +91,6 @@ export const Pricing = `
           </li>
         </ul>
       </div>
-    </div>
-
-    <div class="max-w-lg text-center mx-auto mt-8">
-      <small class="text-md md:text-xl"> * תוספת חפיפה 20 ₪</small>
-      <a href="#contact" class="block text-center mt-3 bg-gradient-to-r from-primary-400 via-primary-500 to-primary-600 text-white py-4 rounded-full hover:from-primary-600 hover:to-primary-700 transition-all duration-300 transform hover:-translate-y-1 text-2xl">הזמיני תור</a>
     </div>
   </div>
 </section>

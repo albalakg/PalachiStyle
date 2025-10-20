@@ -19,20 +19,20 @@ export const Footer = `
 
   <div class="fixed left-4 bottom-4 hidden lg:flex flex-col space-y-4">
     <a href="https://www.instagram.com/palachi_hair" target="_blank" rel="noopener noreferrer" 
-      class="social-icon w-12 h-12 flex items-center justify-center bg-gradient-to-r from-primary-500 to-primary-600 text-white rounded-full hover:from-primary-600 hover:to-primary-700 transition-all duration-300 shadow-lg hover:scale-110">
-      <i class="fab fa-instagram text-xl"></i>
+      class="social-icon w-16 h-16 flex items-center justify-center bg-gradient-to-r from-primary-500 to-primary-600 text-white rounded-full hover:from-primary-600 hover:to-primary-700 transition-all duration-300 shadow-lg hover:scale-110">
+      <i class="fab fa-instagram text-3xl"></i>
     </a>
     <a href="https://wa.me/052-2427530" target="_blank" rel="noopener noreferrer" 
-      class="social-icon w-12 h-12 flex items-center justify-center bg-gradient-to-r from-primary-500 to-primary-600 text-white rounded-full hover:from-primary-600 hover:to-primary-700 transition-all duration-300 shadow-lg hover:scale-110">
-      <i class="fab fa-whatsapp text-xl"></i>
+      class="social-icon w-16 h-16 flex items-center justify-center bg-gradient-to-r from-primary-500 to-primary-600 text-white rounded-full hover:from-primary-600 hover:to-primary-700 transition-all duration-300 shadow-lg hover:scale-110">
+      <i class="fab fa-whatsapp text-3xl"></i>
     </a>
     <a href="https://www.facebook.com/ShaharStyle?locale=he_IL" target="_blank" rel="noopener noreferrer" 
-      class="social-icon w-12 h-12 flex items-center justify-center bg-gradient-to-r from-primary-500 to-primary-600 text-white rounded-full hover:from-primary-600 hover:to-primary-700 transition-all duration-300 shadow-lg hover:scale-110">
-      <i class="fab fa-facebook-f text-xl"></i>
+      class="social-icon w-16 h-16 flex items-center justify-center bg-gradient-to-r from-primary-500 to-primary-600 text-white rounded-full hover:from-primary-600 hover:to-primary-700 transition-all duration-300 shadow-lg hover:scale-110">
+      <i class="fab fa-facebook-f text-3xl"></i>
     </a>
     <a href="tel:+052-2427530" 
-      class="social-icon w-12 h-12 flex items-center justify-center bg-gradient-to-r from-primary-500 to-primary-600 text-white rounded-full hover:from-primary-600 hover:to-primary-700 transition-all duration-300 shadow-lg hover:scale-110">
-      <i class="fas fa-phone text-xl"></i>
+      class="social-icon w-16 h-16 flex items-center justify-center bg-gradient-to-r from-primary-500 to-primary-600 text-white rounded-full hover:from-primary-600 hover:to-primary-700 transition-all duration-300 shadow-lg hover:scale-110">
+      <i class="fas fa-phone text-3xl"></i>
     </a>
   </div>
 `;

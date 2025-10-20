@@ -11,8 +11,3 @@ html {
 body {
   font-family: 'Heebo', sans-serif;
 }
-
-.glass-effect {
-  backdrop-filter: blur(8px);
-  background-color: rgba(0, 0, 0, 0.4);
-}

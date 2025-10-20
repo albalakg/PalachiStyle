@@ -1,0 +1,52 @@
+{
+  "categories": [
+    {
+      "name": "תספורות לנשים",
+      "short_name": "תספורות לנשים",
+      "banner": "תספורות נשים.webp",
+      "assets": [
+        "https://res.cloudinary.com/dq9gif9ri/image/upload/v1757956865/%D7%AA%D7%A1%D7%A4%D7%95%D7%A8%D7%AA_%D7%9C%D7%A4%D7%A0%D7%99_%D7%90%D7%97%D7%A8%D7%99_%D7%95%D7%9E%D7%A6%D7%93_%D7%99%D7%9F_ksw1uh.jpg"
+      ]
+    },
+    {
+      "name": "החלקה אורגנית יוקרתית",
+      "short_name": "החלקות",
+      "banner": "החלקה אורגנית יוקרתית.webp",
+      "assets": []
+    },
+    {
+      "name": "פתיחת תלתלים",
+      "short_name": "תלתלים",
+      "banner": "פתיחת תלתלים.webp",
+      "assets": []
+    },
+    {
+      "name": "צבע ללא אמוניה",
+      "short_name": "צבע",
+      "banner": "צבע.webp",
+      "assets": []
+    },
+    {
+      "name": "גוונים",
+      "short_name": "גוונים",
+      "banner": "גוונים.webp",
+      "assets": [
+        "https://res.cloudinary.com/dq9gif9ri/image/upload/v1757956866/%D7%92%D7%95%D7%95%D7%A0%D7%99%D7%9D_2_hbfzqn.jpg"
+      ]
+    },
+    {
+      "name": "טיפולי שיקום איכותיים",
+      "short_name": "טיפולי שיקום",
+      "banner": "טיפולי שיקום.webp",
+      "assets": []
+    },
+    {
+      "name": "תסרוקות לאירועים ולימי צילום",
+      "short_name": "טיפולי שיקום",
+      "banner": "תסרוקות.webp",
+      "assets": [
+        "https://res.cloudinary.com/dq9gif9ri/image/upload/v1757956865/%D7%97%D7%99%D7%93%D7%95%D7%A9_%D7%A9%D7%95%D7%A8%D7%A9_%D7%9C%D7%A4%D7%A0%D7%99_cztiri.jpg"
+      ]
+    }
+  ]
+}

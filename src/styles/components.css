@@ -31,3 +31,42 @@
 .social-icon:hover {
   transform: scale(1.1);
 }
+
+.gallery-thumb {
+  @apply w-full aspect-square object-cover rounded-lg shadow-md cursor-pointer transition-transform duration-300 ease-in-out;
+}
+.gallery-thumb:hover {
+  transform: scale(1.05);
+}
+.active-tab {
+  @apply bg-primary-500 text-white px-4 py-2 rounded-lg shadow-md;
+}
+
+.gallery-tab {
+  @apply whitespace-nowrap px-4 py-2 rounded-lg border border-gray-300 text-gray-700 hover:bg-gray-200 transition;
+}
+
+.gallery-tab.active-tab {
+  @apply bg-pink-500 text-white border-pink-500 shadow-md;
+}
+
+/* Hide scrollbar but allow scroll */
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Default (inside hero) */
+#mainHeader.hero-active {
+  background-color: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(8px);
+}
+
+/* After hero (bright) */
+#mainHeader.hero-inactive {
+  background-color: rgba(200, 200, 200, 0.5);
+  backdrop-filter: blur(8px);
+}

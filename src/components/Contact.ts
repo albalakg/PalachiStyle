@@ -104,7 +104,7 @@ export const Contact = `
                 <i class="fas fa-house text-xl text-primary-500"></i>
               </div>
               <h3 class="text-2xl font-semibold mb-2 text-center md:text-right">נוחות מקסימלית</h3>
-              <p class="text-gray-600 text-center md:text-right text-lg">לא צריך לצאת מהבית</p>
+              <p class="text-gray-600 text-center md:text-right text-lg">מרגיש כמו בבית</p>
             </div>
 
             <div class="p-6 bg-white rounded-2xl shadow-soft hover:shadow-lg transition-all duration-300 flex flex-col justify-center">
@@ -112,7 +112,7 @@ export const Contact = `
                 <i class="fas fa-map-marker-alt text-xl text-primary-500"></i>
               </div>
               <h3 class="text-2xl font-semibold mb-2 text-center md:text-right">אזור עבודה</h3>
-              <p class="text-gray-600 text-center md:text-right text-lg">פעילות באיזור עמק חפר השרון והמרכז</p>
+              <p class="text-gray-600 text-center md:text-right text-lg">מושב בארותיים</p>
             </div>
 
             <div class="p-6 bg-white rounded-2xl shadow-soft hover:shadow-lg transition-all duration-300 flex flex-col justify-center">
