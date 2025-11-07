@@ -5,7 +5,6 @@
       "short_name": "תספורות לנשים",
       "banner": "https://res.cloudinary.com/dq9gif9ri/image/upload/v1758557397/%D7%AA%D7%A1%D7%A4%D7%95%D7%A8%D7%AA_%D7%A0%D7%A9%D7%99%D7%9D_e31oqz.webp",
       "assets": [
-        "https://res.cloudinary.com/dq9gif9ri/image/upload/v1757956865/%D7%AA%D7%A1%D7%A4%D7%95%D7%A8%D7%AA_%D7%9C%D7%A4%D7%A0%D7%99_%D7%90%D7%97%D7%A8%D7%99_%D7%95%D7%9E%D7%A6%D7%93_%D7%99%D7%9F_ksw1uh.jpg"
       ]
     },
     {
@@ -13,7 +12,6 @@
       "short_name": "החלקות",
       "banner": "https://res.cloudinary.com/dq9gif9ri/image/upload/v1757971542/%D7%94%D7%97%D7%9C%D7%A7%D7%94_%D7%90%D7%95%D7%A8%D7%92%D7%A0%D7%99%D7%AA_%D7%99%D7%95%D7%A7%D7%A8%D7%AA%D7%99%D7%AA_tq9xee.webp",
       "assets": [
-        "https://res.cloudinary.com/dq9gif9ri/image/upload/v1757956865/%D7%AA%D7%A1%D7%A4%D7%95%D7%A8%D7%AA_%D7%9C%D7%A4%D7%A0%D7%99_%D7%90%D7%97%D7%A8%D7%99_%D7%95%D7%9E%D7%A6%D7%93_%D7%99%D7%9F_ksw1uh.jpg"
       ]
     },
     {
@@ -33,7 +31,6 @@
       "short_name": "גוונים",
       "banner": "https://res.cloudinary.com/dq9gif9ri/image/upload/v1758557402/%D7%92%D7%95%D7%95%D7%A0%D7%99%D7%9D_qipi35.webp",
       "assets": [
-        "https://res.cloudinary.com/dq9gif9ri/image/upload/v1757956866/%D7%92%D7%95%D7%95%D7%A0%D7%99%D7%9D_2_hbfzqn.jpg"
       ]
     },
     {
@@ -54,7 +51,36 @@
       "name": "מבצעים",
       "short_name": "מבצעים",
       "banner": "https://res.cloudinary.com/dq9gif9ri/image/upload/v1758557400/%D7%9E%D7%91%D7%A6%D7%A2%D7%99%D7%9D_bjor9b.webp",
-      "assets": [
+      "assets": []
+    }
+  ],
+
+  "pricing": [
+    {
+      "service": "תספורת ועיצוב",
+      "items": [
+        { "type": "תספורת נשים", "price": "150" },
+        { "type": "תספורת + פן", "price": "200" },
+        { "type": "פן בלבד", "price": "80–100" },
+        { "type": "בייביליס / תסרוקת קלה", "price": "200–300" },
+        { "type": "תסרוקת ערב / אירוע", "price": "350–500" }
+      ]
+    },
+    {
+      "service": "צביעה וגוונים",
+      "items": [
+        { "type": "צבע שיער", "price": "150" },
+        { "type": "צבע + פן", "price": "200" },
+        { "type": "גוונים / בליאז׳ / אומברה", "price": "400–900" }
+      ]
+    },
+    {
+      "service": "החלקות וטיפולים",
+      "items": [
+        { "type": "החלקה אורגנית", "price": "800–1000" },
+        { "type": "החלקת מסכת", "price": "200–450" },
+        { "type": "טיפול משקם לשיער", "price": "300–500" },
+        { "type": "פתיחת תלתלים", "price": "300–600" }
       ]
     }
   ]

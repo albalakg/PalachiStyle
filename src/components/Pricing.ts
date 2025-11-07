@@ -6,92 +6,64 @@ export const Pricing = `
       שירותי שיער בהתאמה אישית, עד אלייך – עם ניסיון של 9 שנים, חומרים איכותיים ויחס חם
     </p>
 
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-20 max-w-8xl mx-auto">
-
-      <!-- תספורת ועיצוב -->
-      <div class="pricing-card bg-white p-2 md:p-8 rounded-2xl shadow-soft hover:shadow-xl transition-all duration-300">
-        <div class="text-center mb-8">
-          <div class="w-20 h-20 bg-gradient-to-br from-primary-400 to-primary-600 rounded-full flex items-center justify-center mx-auto mb-4">
-            <i class="fas fa-cut text-3xl text-white"></i>
-          </div>
-          <h3 class="text-3xl font-semibold mb-2 text-gray-800">תספורת ועיצוב</h3>
-        </div>
-        <ul class="space-y-4 text-gray-600 mb-8 text-right">
-          <li class="bg-primary-50 p-3 rounded-lg flex justify-between transition-all duration-300 hover:bg-primary-100 hover:scale-[1.02] hover:shadow-md">
-            <span class="text-sm md:text-lg mt-[4px] md:mt-0">תספורת נשים</span>
-            <span class="font-bold mt-[2px]">150 ₪</span>
-          </li>
-          <li class="bg-primary-50 p-3 rounded-lg flex justify-between transition-all duration-300 hover:bg-primary-100 hover:scale-[1.02] hover:shadow-md">
-            <span class="text-sm md:text-lg mt-[4px] md:mt-0">תספורת + פן</span>
-            <span class="font-bold mt-[2px]">200 ₪</span>
-          </li>
-          <li class="bg-primary-50 p-3 rounded-lg flex justify-between transition-all duration-300 hover:bg-primary-100 hover:scale-[1.02] hover:shadow-md">
-            <span class="text-sm md:text-lg mt-[4px] md:mt-0">פן בלבד</span>
-            <span class="font-bold mt-[2px]">100-80 ₪</span>
-          </li>
-          <li class="bg-primary-50 p-3 rounded-lg flex justify-between transition-all duration-300 hover:bg-primary-100 hover:scale-[1.02] hover:shadow-md">
-            <span class="text-sm md:text-lg mt-[4px] md:mt-0">בייביליס / תסרוקת קלילה</span>
-            <span class="font-bold mt-[2px]">200–300 ₪</span>
-          </li>
-          <li class="bg-primary-50 p-3 rounded-lg flex justify-between transition-all duration-300 hover:bg-primary-100 hover:scale-[1.02] hover:shadow-md">
-            <span class="text-sm md:text-lg mt-[4px] md:mt-0">תסרוקת ערב / אירוע</span>
-            <span class="font-bold mt-[2px]">350–500 ₪</span>
-          </li>
-        </ul>
-      </div>
-
-      <!-- צבע וגוונים -->
-      <div class="pricing-card bg-white p-2 md:p-8 rounded-2xl shadow-soft hover:shadow-xl transition-all duration-300">
-        <div class="text-center mb-8">
-          <div class="w-20 h-20 bg-gradient-to-br from-primary-400 to-primary-600 rounded-full flex items-center justify-center mx-auto mb-4">
-            <i class="fas fa-paint-brush text-3xl text-white"></i>
-          </div>
-          <h3 class="text-3xl font-semibold mb-2 text-gray-800">צביעה וגוונים</h3>
-        </div>
-        <ul class="space-y-4 text-gray-600 mb-8 text-right">
-          <li class="bg-primary-50 p-3 rounded-lg flex justify-between transition-all duration-300 hover:bg-primary-100 hover:scale-[1.02] hover:shadow-md">
-            <span class="text-sm md:text-lg mt-[2px] sm:mt-[0px]">צבע שיער</span>
-            <span class="font-bold">150 ₪</span>
-          </li>
-          <li class="bg-primary-50 p-3 rounded-lg flex justify-between transition-all duration-300 hover:bg-primary-100 hover:scale-[1.02] hover:shadow-md">
-            <span class="text-sm md:text-lg mt-[2px] sm:mt-[0px]">צבע + פן</span>
-            <span class="font-bold">200 ₪</span>
-          </li>
-          <li class="bg-primary-50 p-3 rounded-lg flex justify-between transition-all duration-300 hover:bg-primary-100 hover:scale-[1.02] hover:shadow-md">
-            <span class="text-sm md:text-lg mt-[2px] sm:mt-[0px]">גוונים / בליאז' / אומברה</span>
-            <span class="font-bold">400–900 ₪</span>
-          </li>
-        </ul>
-      </div>
-
-      <!-- החלקות וטיפולים -->
-      <div class="pricing-card bg-white p-2 md:p-8 rounded-2xl shadow-soft hover:shadow-xl transition-all duration-300">
-        <div class="text-center mb-8">
-          <div class="w-20 h-20 bg-gradient-to-br from-primary-400 to-primary-600 rounded-full flex items-center justify-center mx-auto mb-4">
-            <i class="fas fa-spa text-3xl text-white"></i>
-          </div>
-          <h3 class="text-3xl font-semibold mb-2 text-gray-800">החלקות וטיפולים</h3>
-        </div>
-        <ul class="space-y-4 text-gray-600 mb-8 text-right">
-          <li class="bg-primary-50 p-3 rounded-lg flex justify-between transition-all duration-300 hover:bg-primary-100 hover:scale-[1.02] hover:shadow-md">
-            <span class="text-sm md:text-lg mt-[2px] sm:mt-[0px]">החלקה אורגנית</span>
-            <span class="font-bold">800–1000 ₪</span>
-          </li>
-          <li class="bg-primary-50 p-3 rounded-lg flex justify-between transition-all duration-300 hover:bg-primary-100 hover:scale-[1.02] hover:shadow-md">
-            <span class="text-sm md:text-lg mt-[2px] sm:mt-[0px]">החלקת מסגרת</span>
-            <span class="font-bold">200–450 ₪</span>
-          </li>
-          <li class="bg-primary-50 p-3 rounded-lg flex justify-between transition-all duration-300 hover:bg-primary-100 hover:scale-[1.02] hover:shadow-md">
-            <span class="text-sm md:text-lg mt-[2px] sm:mt-[0px]">טיפול משקם לשיער</span>
-            <span class="font-bold">300–500 ₪</span>
-          </li>
-          <li class="bg-primary-50 p-3 rounded-lg flex justify-between transition-all duration-300 hover:bg-primary-100 hover:scale-[1.02] hover:shadow-md">
-            <span class="text-sm md:text-lg mt-[2px] sm:mt-[0px]">פתיחת תלתלים</span>
-            <span class="font-bold">300–600 ₪</span>
-          </li>
-        </ul>
-      </div>
-    </div>
+    <div id="pricing-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-20 max-w-8xl mx-auto"></div>
   </div>
 </section>
 `;
+
+type PricingItem = { type: string; price: string };
+type PricingGroup = { service: string; items: PricingItem[] };
+
+const iconFor = (service: string) => {
+  const s = service.trim();
+  if (/(תספורת|עיצוב)/.test(s)) return "fa-cut";
+  if (/(צביעה|גוונים)/.test(s)) return "fa-paint-brush";
+  if (/(החלקות|טיפולים|טיפול|מסגרת)/.test(s)) return "fa-spa";
+  return "fa-scissors"; // ברירת מחדל
+};
+
+const fmtPrice = (p: string) => {
+  const clean = String(p).trim();
+  // אם אין כבר ₪ בסטרינג – נוסיף בסוף, ואם זה טווח נשאיר כמות שהוא
+  return /₪/.test(clean) ? clean : `${clean} ₪`;
+};
+
+const cardTemplate = (group: PricingGroup) => `
+  <div class="pricing-card bg-white p-2 md:p-8 rounded-2xl shadow-soft hover:shadow-xl transition-all duration-300">
+    <div class="text-center mb-8">
+      <div class="w-20 h-20 bg-gradient-to-br from-primary-400 to-primary-600 rounded-full flex items-center justify-center mx-auto mb-4">
+        <i class="fas ${iconFor(group.service)} text-3xl text-white"></i>
+      </div>
+      <h3 class="text-3xl font-semibold mb-2 text-gray-800">${
+        group.service
+      }</h3>
+    </div>
+    <ul class="space-y-4 text-gray-600 mb-8 text-right">
+      ${group.items
+        .map(
+          (it) => `
+        <li class="bg-primary-50 p-3 rounded-lg flex justify-between transition-all duration-300 hover:bg-primary-100 hover:scale-[1.02] hover:shadow-md">
+          <span class="text-sm md:text-lg mt-[2px] sm:mt-[0px]">${
+            it.type
+          }</span>
+          <span class="font-bold">${fmtPrice(it.price)}</span>
+        </li>`
+        )
+        .join("")}
+    </ul>
+  </div>
+`;
+
+function renderPricing(pricing: any) {
+  const el = document.getElementById("pricing-grid");
+  if (!el) return;
+  if (!pricing?.length) {
+    el.innerHTML = `<div class="text-center text-gray-600">לא נמצאו מחירים להצגה</div>`;
+    return;
+  }
+  el.innerHTML = pricing.map(cardTemplate).join("");
+}
+
+window.addEventListener("data-loaded", () => {
+  renderPricing((window as any).pricing);
+});

@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+
+# בלוק של דפים טכניים (אם אין כאלה, אפשר להשאיר)
+Disallow: /admin/
+Disallow: /api/
+Disallow: /assets/private/
+
+# מצביע למפת האתר
+Sitemap: https://palachi-hair.com/sitemap.xml

@@ -41,7 +41,7 @@ function bindServiceItems() {
 }
 
 
-window.addEventListener("categories-loaded", (e: Event) => {
+window.addEventListener("data-loaded", (e: Event) => {
   const categories = (window as any).categories;
   const grid = document.getElementById("services-grid");
   if (!categories || !grid) return;
@@ -52,7 +52,7 @@ window.addEventListener("categories-loaded", (e: Event) => {
         <div data-category="${cat.short_name}"
              class="service-item cursor-pointer relative h-40 rounded-2xl overflow-hidden shadow-lg"
              data-aos="fade-right" data-aos-delay="${200 + index * 100}">
-          <img src="${cat.banner}" alt="${
+          <img src="${cat.banner}" loading="lazy" alt="${
         cat.name
       }" class="w-full h-full object-cover">
           <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent flex items-end p-4">

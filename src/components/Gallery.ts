@@ -23,36 +23,20 @@ export const Gallery = `
   </section>
 `;
 
-// const API_KEY = "AIzaSyDJlpDGTrSPCBNXMIPZeHL7D-zNswKd9qU";
-// const ROOT_FOLDER_ID = "1IyG5jKO1oFnMDQRCQ0SFXnvipY0oXmZF";
-
-const CLOUD_NAME = "dq9gif9ri";
 const CLOUD_BASE_URL = `https://res.cloudinary.com/dq9gif9ri/raw/upload/v1757956858/`;
-
 function isVideo(url: string) {
   return url.match(/\.(mp4|webm|ogg)(\?.*)?$/i);
 }
 
-async function listAssets() {
-  const url = `https://www.googleapis.com/drive/v3/files?q='${ROOT_FOLDER_ID}' in parents and trashed=false&key=${API_KEY}&fields=files(id,name,mimeType)`;
-  const res = await fetch(url);
-  const data = await res.json();
-
-  return data.files.map((f: any) => ({
-    name: f.name,
-    url: `https://www.googleapis.com/drive/v3/files/${f.id}?alt=media&key=${API_KEY}`, // stable!
-    mimeType: f.mimeType,
-  }));
-}
-
 async function getCategories() {
-  const res = await fetch(CLOUD_BASE_URL + `data.json`);
-  const data = await res.json(); // <-- your uploaded data.json
-  console.log({ data });
-  window.categories = data.categories;
-  const myEvent = new CustomEvent("categories-loaded", {
-    categories: data.categories,
+  const res = await fetch(CLOUD_BASE_URL + `data.json`, {
+    cache: 'no-store',
   });
+  const data = await res.json();
+  console.log({ data });
+  (window as any).categories = data.categories;
+  (window as any).pricing = data.pricing;
+  const myEvent = new CustomEvent("data-loaded", data);
   window.dispatchEvent(myEvent);
 
   return data.categories;
@@ -71,7 +55,7 @@ function renderGallery(categories: any[]) {
     ${categories
       .map(
         (c) =>
-          `<button class="gallery-tab" data-tab="${c.short_name}">${c.name}</button>`
+          `<button class="gallery-tab" data-tab="${c.short_name}">${c.short_name}</button>`
       )
       .join("")}
   `;
@@ -99,7 +83,7 @@ function renderGallery(categories: any[]) {
             }" autoplay loop muted playsinline></video>`
           : `<img class="gallery-thumb gallery-item" data-category="${categoriesAttr.join(
               " "
-            )}" src="${a}" alt="${cat.name}">`;
+            )}" loading="lazy" src="${a}" alt="${cat.name}">`;
       })
     )
     .join("");
@@ -123,7 +107,7 @@ function bindGalleryLogic() {
   const prevBtn = document.getElementById("lightbox-prev");
   const nextBtn = document.getElementById("lightbox-next");
   const tabs = document.querySelectorAll(".gallery-tab");
-
+  
   let currentIndex = -1;
   let visibleThumbs: any[] = thumbs;
 
@@ -171,7 +155,7 @@ function bindGalleryLogic() {
       tab.classList.add("active-tab");
 
       thumbs.forEach((thumb: any) => {
-        const thumbCategory = thumb.getAttribute("data-category");
+        // const thumbCategory = thumb.getAttribute("data-category");
         thumb.style.display =
           category === "all" &&
           thumb.getAttribute("data-category")?.includes("all")

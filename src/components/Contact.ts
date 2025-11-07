@@ -128,5 +128,10 @@ export const Contact = `
         </div>
       </div>
     </div>
+    <div class="rights mt-12 text-center">
+      <p class="text-gray-500 text-sm">
+        © כל הזכויות שמורות ל־<span class="font-semibold text-gray-500">Gal Albalak</span>
+      </p>
+    </div>
   </section>
 `;

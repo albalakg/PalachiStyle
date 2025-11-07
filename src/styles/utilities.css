@@ -9,7 +9,7 @@
 
 ::-webkit-scrollbar-thumb {
   background: #ec4899;
-  border-radius: 4px;
+  border-radius: 0;
 }
 
 ::-webkit-scrollbar-thumb:hover {
